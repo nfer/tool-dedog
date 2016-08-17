@@ -1,0 +1,24 @@
+{
+  "name": "tool-dedog",
+  "version": "1.0.3",
+  "description": "error capture tool",
+  "main": "./index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.futunn.com/webpackage/tool-dedog.git"
+  },
+  "keywords": [
+  ],
+  "author": "linda",
+  "license": "ISC",
+  "devDependencies": {
+    "user-agent-parser": "^0.6.0",
+    "webpack": "^1.12.14"
+  }
+}

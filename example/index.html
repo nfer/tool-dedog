@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tool-error-capture 报错捕获</title>
+</head>
+<body>
+    <div>demo</div>
+    <script type="text/javascript" src="../index.js"></script>
+    <script>
+    var ErrorCapture = window['tool-error-capture'];
+    var errorCapture = new ErrorCapture();
+    errorCapture.listen(function(err,data){
+        console.log(err,data);
+    });
+    alert(hihihi);//hihihi is not defined,so console will throw an error here.
+    </script>
+</body>
+</html>
