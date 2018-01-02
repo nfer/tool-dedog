@@ -24,7 +24,7 @@ var bindEvent = function(element, event, callback){
 // listen and report
 Dedog.prototype.listen = function(data){
     // data.monitorId = data.monitorId || '400050';
-    var uaParser = require('user-agent-parser');
+    var uaParser = require('ua-parser-js');
     var userAgent = uaParser(navigator.userAgent);
 
     var deviceType = (userAgent.device.model && userAgent.device.vendor + ' ' + userAgent.device.model) ||

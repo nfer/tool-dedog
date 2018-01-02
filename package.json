@@ -14,12 +14,11 @@
     "type": "git",
     "url": "http://gitlab.futunn.com/webpackage/tool-dedog.git"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "linda",
   "license": "ISC",
   "devDependencies": {
-    "user-agent-parser": "^0.6.0",
+    "ua-parser-js": "^0.7.17",
     "webpack": "^1.12.14"
   }
 }
