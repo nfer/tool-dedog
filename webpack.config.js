@@ -8,8 +8,6 @@ module.exports = {
 		}
 	})],
 	output:{
-		library:'tool-error-capture',
-		libraryTarget:'umd',
-		filename:'./index.js'
+		filename:'./dist/index.min.js'
 	}
 };
